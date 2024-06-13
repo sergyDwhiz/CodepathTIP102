@@ -7,7 +7,7 @@
 
 def missingNumber(nums):
     sum1 = 0
-    sum = len(nums) * (len(nums) + 1) // 2 # expected sum of n numbers in the arr
+    sum = len(nums) * (len(nums) + 1) // 2
     for i in range(len(nums)):
-        sum1 += nums[i]  # actuall sum of the numbers in the arr
-    return sum - sum1 # Subtract to get the missing number
+        sum1 += nums[i]
+    return sum - sum1
