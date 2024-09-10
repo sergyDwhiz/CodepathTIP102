@@ -6,8 +6,6 @@
 # Output: 2
 
 def missingNumber(nums):
-    sum1 = 0
-    sum = len(nums) * (len(nums) + 1) // 2
-    for i in range(len(nums)):
-        sum1 += nums[i]
-    return sum - sum1
+    expected_sum = len(nums) * (len(nums) + 1) // 2 # n*(n+1)//2 - sum of first n natural numbers
+    actual_sum = sum(nums)
+    return expected_sum - actual_sum

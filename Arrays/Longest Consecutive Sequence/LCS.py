@@ -1,2 +1,1 @@
-# Gets the longest consecutive sequence in an array. 
-
+# Gets the longest consecutive sequence in an array.
