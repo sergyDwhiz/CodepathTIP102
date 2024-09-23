@@ -1,0 +1,1 @@
+Given an array of elements, return all non-even elements
