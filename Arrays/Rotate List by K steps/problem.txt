@@ -1,0 +1,3 @@
+Given a list, nums, and an integer, k, rotate the list to the right by k positions so that each rotation involves shifting the elements one position at a time.
+Arr = [1, 2, 4, 6, 7], K = 3
+new Arr = [4, 6, 7, 1, 2]
