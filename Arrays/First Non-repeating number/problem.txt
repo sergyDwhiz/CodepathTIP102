@@ -1,0 +1,2 @@
+Given a list nums, find the first nonrepeating integer in it.
+
