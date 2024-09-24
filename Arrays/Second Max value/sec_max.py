@@ -1,9 +1,12 @@
 def find_second_maximum(nums):
+    first_max = sec_max = float('-inf')
+    for i in range(len(nums)):
+      if (nums[i] > first_max):
+        sec_max = first_max
+        first_max = nums[i]
 
-    nums.sort()
-    length = len(nums)
-    if nums[-1] == nums [-2]:
-      return nums[-3]
-    else:
-      return nums[-2]
+      elif (nums[i] > sec_max and nums[i]!= first_max):
+        sec_max = nums[i]
+
+    return sec_max
 
