@@ -1,0 +1,2 @@
+Given the head of a singly linked list, remove any duplicate nodes from the list in place, ensuring
+that only one occurrence of each value is retained in the modified list.
