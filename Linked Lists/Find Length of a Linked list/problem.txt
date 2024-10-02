@@ -1,0 +1,2 @@
+Given the head of a singly linked list, find the length of the linked list.
+
