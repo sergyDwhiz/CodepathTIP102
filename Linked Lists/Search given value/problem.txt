@@ -1,0 +1,2 @@
+Given the head of a singly linked list, search for a specific value. If the value is found, return TRUE;
+otherwise, return FALSE.
