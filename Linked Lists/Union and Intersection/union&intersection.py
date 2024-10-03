@@ -1,4 +1,4 @@
-from linked_list_operations import LinkedListNode, intersection
+from linked_list_operations import LinkedListNode, intersection # type: ignore
 
 
 class LinkedListNode:
