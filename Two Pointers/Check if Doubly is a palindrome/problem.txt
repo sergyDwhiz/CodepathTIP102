@@ -1,0 +1,2 @@
+Given the head of a doubly linked list, check whether the doubly linked list is a palindrome or not. Return TRUE if
+it is a palindrome; otherwise, return FALSE.
