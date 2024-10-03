@@ -1,0 +1,8 @@
+Given the heads of two linked lists, head1 and head2, as inputs. Implement the union and intersection functions for the linked lists.
+The order of elements in the output lists doesn’t matter.
+
+Here’s how you will implement the functions:
+
+## Union: This function will take two linked lists as input and return a new linked list containing all the unique elements.
+
+## Intersection: This function will take two linked lists as input and return all the common elements between them as a new linked list.
