@@ -1,0 +1,4 @@
+Given a number n, generate a list of binary numbers from 1 to n
+in the form of a string using a queue.
+
+1≤n≤1000
