@@ -1,0 +1,11 @@
+In a gathering of N * N individuals labeled from
+0 to (N − 1), there’s a possibility of one person being a celebrity.
+A celebrity is characterized by being known by everyone else and not knowing any attendees.
+This scenario is represented using an N × N binary MATRIX, where each cell contains either a 0
+or a 1. iF MATRIX [i][j] = 1, it signifies that person ith knows the jth person.
+
+
+For the given matrix,determine the existence of a celebrity within the group.
+If a celebrity is identified, return its label, otherwise return −1.
+
+.
