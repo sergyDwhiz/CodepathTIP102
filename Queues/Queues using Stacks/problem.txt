@@ -1,0 +1,4 @@
+Design a queue data structure using only two stacks and implement the following functions:
+
+enqueue(int x): Inserts a value to the back of the queue.
+dequeue(): Removes and returns the value from the front of the queue.
