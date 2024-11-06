@@ -29,6 +29,6 @@ class NewQueue:
             value = self.main_stack.pop()
         return value
 
-    # Time complexity for enqueue operation is O(n), since it will take "n" time to enqueu "n" elements.
-    # Time complexity for dequeue is O(1), or constant time, since it will take thesame time to remove an element, despite its position in the queue.
+    # Time complexity for enqueue operation is O(n), since it will take "n" time to move elts to main_stack and back
+    # Time complexity for dequeue is O(1), or constant time, because we point to the top of the queue, so we just pop the first elt.
 
