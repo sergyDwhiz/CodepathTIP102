@@ -1,0 +1,5 @@
+Implement a next_greater_element() function that takes a list of integers, lst, as input
+and returns the next greater number for every element in the list.
+
+The next greater number for a number lst[i] is the first number to its right that is greater
+than lst[i]. If no such number exists, return -1 for this number.
