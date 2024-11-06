@@ -1,0 +1,2 @@
+Given a stack of integers, stack, sort its elements in ascending order.
+In the resulting stack, the smallest element should be at the top.
