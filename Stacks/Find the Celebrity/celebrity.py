@@ -14,7 +14,7 @@ def celebrity(MATRIX):
     # Candidate myst not know anyone else
 
     for i in range(N):
-        if i != candidate:
+        if i != candidate: # compare the candidate with every other element except itself
             if MATRIX[candidate][i] == 1 or MATRIX[i][candidate] == 0: #
                 return -1
 
