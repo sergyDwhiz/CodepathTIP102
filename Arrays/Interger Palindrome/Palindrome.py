@@ -12,8 +12,9 @@ class Solution(object):
             # Convert x to a string
             string_x = str(x)
             # Reverse the string
-            reversed = string_x[::-1]
-            reversed_int = int(reversed)
-            if(reversed_int == x):
+            reversed_string = ''.join(reversed(string_x))
+            # Compare the reversed string to the original string
+            if(string_x == reversed_string):
                 return True
-            return False
+            else:
+                return False
